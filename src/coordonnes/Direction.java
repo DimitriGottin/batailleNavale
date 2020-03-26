@@ -25,8 +25,4 @@ public enum Direction {
     public String getDirection(){
         return direction;
     }
-
-    public String getValue(Bateau bateau){
-        return Direction.valueOf(bateau.getDirection()).getAxe();
-    }
 }
