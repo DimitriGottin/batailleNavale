@@ -10,7 +10,7 @@ public class app {
         Bateau bateauDeux2 = new Bateau(2,2,2, "Droite");
         Bateau bateauTrois1 = new Bateau(2, 1, 3, "Droite");
         Bateau bateauQuatre = new Bateau(7, 1, 4, "Gauche");
-        String b = Direction.valueOf(bateauQuatre.getDirection()).getAxe();
+        System.out.println(bateauQuatre.direction1.getAxe());
         System.out.println(flotte.addBoat(bateauDeux1));
         System.out.println(flotte.addBoat(bateauDeux2));
         System.out.println(flotte.addBoat(bateauTrois1));

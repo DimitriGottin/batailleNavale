@@ -8,7 +8,7 @@ public class Bateau {
     private Coordonnes startPosition;
     private int model;
     private String direction;
-    private Direction direction1;
+    public Direction direction1;
 
     public Bateau (int x, int y, int model, String direction){
         setStartPosition(new Coordonnes(x,y));
