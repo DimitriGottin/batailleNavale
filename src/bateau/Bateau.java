@@ -6,9 +6,9 @@ public class Bateau {
     private int modele;
     private String direction;
 
-    Bateau (int x, int y, int modele, String direction){
+    Bateau (int x, int y, int model, String direction){
         setDirection(direction);
-        setModele(modele);
+        setModele(model);
         setStartPosition(x, y);
     }
 
@@ -17,8 +17,8 @@ public class Bateau {
         this.startPosition[1] = y;
     }
 
-    public void setModele(int modele) {
-        this.modele = modele;
+    public void setModele(int model) {
+        this.modele = model;
     }
 
     public void setDirection(String direction) {
@@ -29,7 +29,7 @@ public class Bateau {
         return startPosition;
     }
 
-    public int getModele() {
+    public int getModel() {
         return modele;
     }
 
