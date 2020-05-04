@@ -1,0 +1,32 @@
+Besoin:
+Conditions de victoire: Avoir détruit la flotte adverse.
+Conditions de défaite:	Avoir perdu l'intégralité de sa flotte
+
+Initialisation : 1 plateau de 10x10, 2 flotte(2 joueurs), 5 bateau par flotte
+Flotte :
+1bateau  de 5
+1bateau  de 4
+1bateau  de 3
+2bateau  de 2
+ 
+Bateau posé à la verticale ou à l'horizontale
+Les 2 flottes peuvent être poser sur le même plateau, mais les joueurs ne peuvent intéragir,consulter la flotte des autres joueurs.
+(Comparaison par rapport au jeu de plateau avec un terrain pour chaque joueurs)
+
+Idée diverse(A ne pas prendre en compte)
+Menu option
+Tour de "nom du joueur"
+Attaquer,
+Consulter les coups déja jouer, les bateaux adverses toucher/couler
+
+Backlog
+1/Définir les limites sur jeu
+2/Création d'un bateau et définir ses comportements initiaux
+3/Création d"une flotte et définir ses interactions possibles avec les bateaux
+4/Mise en place de la flotte dans le jeu
+5/Mise en place de l'IA 
+	5.1/Placer sa flotte
+	5.2/Control de sa flotte
+	5.3/Définition d'un set de tactiques???? (bonus)
+6/Création du menu
+7/Combat contre l'IA 
